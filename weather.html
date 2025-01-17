@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" type="x-icon" href="image/logo.jpg">
+</head>
+<body>
+    <div id="header">
+        <img src="image/logo.jpg" alt="" class="first_logo" >
+        <h1>WEATHER APP</h1>
+    </div>
+    <div class="container2">
+        <h2><b>DAILY WEATHER FORECAST</b></h2>
+        <h2><b>UPDATEE NEWS</b></h2>
+        <span><h5>Get the latest weather forecast for today Get up-to-date</h5></span>
+        <span><h5>information like Temperature , Wind-Speed , Humidity</h5></span>
+    </div>
+    <div class="container3">
+        <input type="text" id="citysearch" placeholder="City Name">
+        <button id="submit">Search Weather</button><br>
+        <label for="" id="error">invalid city name or something went wrong</label>
+    </div>
+    <div class="container4">
+        <div class="container4_1">
+            <div class="weather_logo">
+                 <img src="image/drizzle.jpeg" alt="" id="weather_icon">
+            </div><br>
+            <center><label for="" class="Temperature"><b><span id="temp">0</span><span>°C</span></label></b></center><br>
+            <center><label for="" id="city_name">SURAT</label></center>
+        </div>
+        <hr>
+
+       <div class="weather_data">
+            <div class="img">
+                <img src="image/sunrise.png" alt="" class="img1">
+                <img src="image/humidity.png" alt="" class="img2">
+            </div>
+            <div class="data">
+                <br>
+                <span class="name1 font">Sunrise</span>
+                <span id="rise" class="dat">12:00am</span><br><br><br>
+                <span class="name1 font">Humidity</span>
+                <span id="humidity" class="dat">0%</span>
+            </div>
+            <div class="img">
+                <img src="image/sunset.png" alt="" class="img3">
+                <img src="image/wind speed.png" alt="" class="img4">
+            </div>
+            <div class="data">
+                <br>
+                <span class="name2 font">Sunset</span>
+                <span id="set" class="dat">12:00pm</span><br><br><br>
+                <span class="name2 font">WindSpeed</span>
+                <span id="wind" class="dat">1km/h</span>
+            </div>
+       </div>
+        </div>
+    </div>
+</body>
+</html>

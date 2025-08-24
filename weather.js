@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	async function  main(c) {
 		const apiKey = 'ebc204662b88edba0e9d201278b7fe90';
-		const city = c;
+		const city = c||"Surat";
     	const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 		try {
 			let response = await fetch(apiurl);
@@ -66,4 +66,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	};
 	button.addEventListener("click", btn);
+
 });

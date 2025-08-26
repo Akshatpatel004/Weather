@@ -1,5 +1,4 @@
 body{
-    background-image: url();
     background-image: url(image/background\ image.jpg);
     background-size:cover ;
 }
@@ -125,3 +124,4 @@ h5{
 .name1 ,.name2 , #rise , #set{
     padding-left: 0px;
 }
+
